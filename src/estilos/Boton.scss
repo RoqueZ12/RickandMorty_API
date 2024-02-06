@@ -1,0 +1,17 @@
+.btn {
+  width: auto; /* Reducí el tamaño del botón */
+  height: 40px; /* Reducí el tamaño del botón */
+  padding: 5px;
+  border: 1px solid gray;
+  cursor: pointer;
+  color: rgb(0, 174, 255);
+  font-size: 14px; /* Ajusta el tamaño del texto */
+  background-color: white;
+
+  &:active {
+    transform: translateY(4px);
+  }
+  &:hover {
+    background-color: lightgray; /* Cambia el color de fondo en hover según tu preferencia */
+  }
+}
